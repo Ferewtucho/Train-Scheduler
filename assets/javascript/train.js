@@ -10,6 +10,13 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
+function date() {
+  var today = new Date().toLocaleString();
+  // console.log(today);
+  document.getElementById("date").innerHTML = today;
+}
+date();
+
 // 2. Populate Firebase Database with initial data (in this case, I did this via Firebase GUI)
 // 3. Button for adding trains
 $("#train-btn").on("click", function(event) {
