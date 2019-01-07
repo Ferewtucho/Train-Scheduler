@@ -1,6 +1,18 @@
-body{
-    background-image: url("../images/train-station-barcelona-spain-april-panoramic-waiting-departure-estacio-de-franca-people-background-51075522.jpg");
-    background-size: cover;
-    background-color: white;
+@import url(https://fonts.googleapis.com/css?family=Charm);
+body {
+  background-color: #232323;
+  background: url("../images/train.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: "Charm", cursive;
+  color: aliceblue;
 }
-
+#add {
+  background: rgba(56, 255, 255, 0.4);
+}
+td {
+  color: black;
+}

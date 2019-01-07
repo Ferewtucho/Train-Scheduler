@@ -29,7 +29,7 @@
     <embed src="assets/mp3/14 Subway Smist.mp3" autostart="true" loop="true" height="0" width="0">
     <div class="container">
         <div class="container">
-            <div class="jumbotron backT" style="background-color: #20315A ; color: white;">
+            <div class="jumbotron backT" style="background-color: #3d4247; color: white;">
                 <div class="container">
                     <h3 class="display-4 text-center"><strong><i class="fas fa-train"></i></i>  Anytime is Train Time</strong></h3>
                     <p style="text-align: center">Choo Choo.Chee Chee</p>
@@ -38,13 +38,13 @@
         </div>
 
         <div class="container">
-            <div class="card">
-                <h5 class="card-header" style="background-color: #20315A ; color: white;"><i class="fas fa-clock"></i>  Current Train Sceadule</h5>
+            <div class="card" id = "add">
+                <h5 class="card-header" style="background-color: #3d4247 ; color: white;"><i class="fas fa-clock"></i>  Current Train Sceadule</h5>
                 <div class="card-body">
 
                     <table class="table table-striped" id="train-table">
 
-                        <thead style="background-color: #20315A ; color: white;">
+                        <thead style="background-color: #3d4247 ; color: white;">
                             <tr>
                                 <th scope="col">Train Name</th>
                                 <th scope="col">Destination</th>
@@ -62,26 +62,26 @@
         <br>
 
         <div class="container edit">
-            <div class="card">
-                <h5 class="card-header"style="background-color: #20315A ; color: white;"><i class="fas fa-train"></i>  Add Train</h5>
+            <div class="card" id = "add">
+                <h5 class="card-header"style="background-color: #3d4247 ; color: white;"><i class="fas fa-train"></i>  Add Train</h5>
                 <div class="card-body edit">
-                    <form>
+                    <form style = "border-radius: 5px;">
                         <div class="form-group">
-                            <label for="name">Train Name</label>
+                            <label for="name" style = "color:black">Train Name</label>
                             <input type="text" class="form-control" id="name">
                         </div>
 
                         <div class="form-group">
-                            <label for="destination">Destination</label>
+                            <label for="destination" style = "color:black">Destination</label>
                             <input type="text" class="form-control" id="destination">
                         </div>
 
                         <div class="form-group">
-                            <label for="time">First Train Time (HH:mm - military time)</label>
+                            <label for="time" style = "color:black">First Train Time (HH:mm - military time)</label>
                             <input type="text" class="form-control" id="time">
                         </div>
                         <div class="form-group">
-                            <label for="frequency">Frequency (min)</label>
+                            <label for="frequency" style = "color:black">Frequency (min)</label>
                             <input type="text" class="form-control" id="frequency">
                         </div>
                         <input class="btn btn-primary" type="submit" id="train-btn" value="Submit" style="background-color: #20315A">
